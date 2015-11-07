@@ -19,15 +19,14 @@
         android:text="@string/message"
         android:textSize="20sp"/>
     <Button
+        android:gravity="left"
         android:layout_width="fill_parent"
-        android:layout_height="50dp"
+        android:layout_height="20dp"
         android:text="@string/message02"
         android:textColor="#FFF"
         android:textAllCaps="false"
         android:clickable="false"
-        android:paddingRight="75dp"
-        android:paddingBottom="10dp"
-        android:background="@drawable/image01"/>
+        android:background="@color/primary_dark"/>
 
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
@@ -67,7 +66,7 @@
 
         <Button
             android:id="@+id/button_swape"
-            android:background="@mipmap/flecha_boton"
+            android:background="@mipmap/cambiaridiomas"
             android:layout_width="30dp"
             android:layout_height="30dp" />
         <Spinner
@@ -80,7 +79,7 @@
             android:id="@+id/button_translate"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:background="@mipmap/boton_traducir"
+            android:background="@color/primary_dark"
             android:text="@string/button2_text"
             android:textColor="#FFF"/>
 

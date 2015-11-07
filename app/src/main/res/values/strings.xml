@@ -2,7 +2,7 @@
     <string name="app_name">EtnoApp</string>
     <string name="action_settings">Settings</string>
     <string name="project_name">EtnoApp</string>
-    <string name="message">Traductor Étnico Colombiano</string>
+    <string name="message">Traductor Étnico</string>
     <string name="message02">Escribe el texto que quiere traducir aqui</string>
     <string name="original_text">Texto original</string>
     <string name="traduced">Texto traducido</string>

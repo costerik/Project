@@ -18,6 +18,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
 import java.util.Hashtable;
 
 public class MainActivity extends AppCompatActivity {
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
     Spinner spinner,spinner2;
     Button btnSwapLanguage, btnTranslate;
     TextView txtViewTranslate;
+    ArrayList<String> words;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        dirWE=new Hashtable<>();
+        dirEW=new Hashtable<>();
+        words=new ArrayList<>();
         edtText=(EditText)findViewById(R.id.edit_text);
         spinner = (Spinner) findViewById(R.id.spinner);
         spinner2 =(Spinner) findViewById(R.id.spinner2);
@@ -53,12 +56,13 @@ public class MainActivity extends AppCompatActivity {
         btnTranslate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String wordObtained = fromTo(dirWE, edtText.getText().toString());
+                txtViewTranslate.setText(translate(edtText.getText().toString(),words));
+                /*String wordObtained = fromTo(dirEW, edtText.getText().toString());
                 if (wordObtained != "") {
                     txtViewTranslate.setText(wordObtained);
                 } else {
                     txtViewTranslate.setText("Lo sentimos, estamos en proceso!!!");
-                }
+                }*/
             }
         });
         //
@@ -99,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         try {
-            readFile();
+            readFile(dirEW);
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -119,16 +123,7 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
     }
 
-    public String fromTo(Hashtable hash,String word){
-        if(hash.get(word)!=null){
-            Log.i("FROM_TO", "Translated");
-            return hash.get(word).toString();
-        }else {
-            return "";
-        }
-    }
-
-    public void readFile()throws IOException {
+    /*public void readFile()throws IOException {
         InputStream isr=this.getResources().openRawResource(R.raw.dictionary);
         BufferedReader br=new BufferedReader(new InputStreamReader(isr));
         String line=br.readLine();
@@ -139,5 +134,46 @@ public class MainActivity extends AppCompatActivity {
             line=br.readLine();
         }
         br.close();
+    }*/
+
+    public String[] splitText(String text){
+        String [] eachWord=text.split(" ");
+        return eachWord;
+    }
+
+    public void readFile(Hashtable h) throws IOException{
+        InputStream isr=this.getResources().openRawResource(R.raw.dictionary2);
+        BufferedReader reader=new BufferedReader(new InputStreamReader(isr));
+        String line = null;
+        while ((line = reader.readLine()) != null) {
+            Log.d("A",line);
+            String [] str=line.split(";");
+            //System.out.println(line);
+            //System.out.println(str[0]+"->"+str[1]);
+            h.put(str[0],str[1]);
+        }
+    }
+
+    public ArrayList<String> wordTranslate(Hashtable<String,String> hash, String []wordsTypes){
+        ArrayList<String> words=new ArrayList<String>();
+        for(String str:wordsTypes){
+            if(hash.get(str)!=null){
+                words.add(hash.get(str));
+            }else{
+                words.add("(->"+str+"<-)");
+            }
+        }
+        return words;
+    }
+
+    public String translate(String text,ArrayList words){
+        String[] argsWords=splitText(text);
+
+        words=wordTranslate(dirEW,argsWords);
+        String result="";
+        for(int i=0;i<words.size();i++){
+            result+=words.get(i)+" ";
+        }
+        return result;
     }
 }
