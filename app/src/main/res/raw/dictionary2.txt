@@ -79,6 +79,7 @@ alcaraván;teitei;n.m
 alcaraván;kaarai;n.m
 alegre;talataa;adj
 alentar;atütajaa;v.tr
+aldea;pueulo;n.m
 algodón;maawüi;n.m
 alimento;eküülü;n.m
 alistarse;yapaa;v.ref
@@ -490,6 +491,7 @@ conocer;e'raajaa;v.tr
 conocimiento;outapünawaa;n.m
 conocimiento;oso'irawaa aa'in;n.m
 consolar;amüliaja;v.tr
+constelación;iiwa;n.f
 construir;akumajaa; v.tr
 construir;aainjaa;v.tr
 contar;ayaawajaa;v.tr
@@ -572,6 +574,8 @@ cumplir;ekeraajaa;v.tr
 cumplirse;ekeraajaa;v.ref
 cuñada;aleshi;n.f
 cuñada;ainchi;n.m
+curandero;outshi;n.m
+curandera;outshisü;n.f
 dañado;mojuu;adj
 dañada;mojuu;adj
 dañar;amojujaa;v.tr
@@ -581,6 +585,7 @@ dañina;pülaa;adj
 daño;kaainjalaa;n.m 
 dar;aapaa1;v.tr
 dar a luz;jemeyuluu;n.f
+darse prisa;ashapajawaa;n.f
 de;anainjee;prep
 de;oulia;prep
 debajo;oupünaa;adv
@@ -804,6 +809,10 @@ esta;este;V
 ésta;éste;V
 establecer;aikkale'eraa;v.tr
 establecer;e'itawaa;v.tr
+estar enfermo de rabia;rabdiao mamainnaa;n.f
+estar de pie;sha'wataa;n.m
+estar prendido;jotaa;v.tr
+estar prendida;chuwataa;v.tr
 fabricar;aainjaa;v.tr
 fácil;mapülewaa;adj
 fallar;o'tchejaa;v.tr
@@ -823,6 +832,7 @@ fibra;ase;n.f
 fiebre;tuttaa;n.f
 fiebre;oushuwaa;n.f
 fiesta;mi'iraa;n.f
+figura de persona;wayunkeera;n.f
 fijo;ichee;adj
 filo;asa;n.m
 firme;ichee;adj
@@ -913,6 +923,7 @@ hablar;aashajawaa;v.intr
 hacer;aa'inraa;v.tr
 hacer;aainjaa;v.tr
 hacer;akumajaa;v.tr
+hacer pasar;o'tte'eraa;v.intr
 hacha;polu;n.f
 hacia;anainmüin;prep
 halar;ajaraittaa;v.tr
@@ -1026,6 +1037,7 @@ jarra;jaarü;n.m
 jarro;jaarü;n.m
 jefe;laülaa;n.m 
 jefa;alaülashi;n.f
+joya;kakuuna;n.f
 joven;jima'ai;n.m
 joven;majayülü;n.f
 jugar;emi'ijaa;v.intr
@@ -1083,6 +1095,7 @@ limpia;ulee;adj
 linterna;jooki;n.f
 liso;sirataa;adj
 lisa;sirasiraa;adj
+lista de nombres;anüliee;n.f
 listo;yalayalaa;adj
 listo;kerawaa;adj
 listo;kettawaa;adj
@@ -1209,4 +1222,442 @@ mellizo;senkeyuu;n.m
 melliza;senkeyuu;n.f
 melón;meruuna;n.m
 mendigar;ajulijaa;v.intr
+mensaje;anüiki;n.m
+mensajero;oaapiee;n.m
+mensajera;anüliee;n.f
+mente;ekii;n.f
+mente;aa'in;n.f
+mentira;alawaa;n.f 
+mentira;a'alain;n.f
+mentón;e'iyeise;n.m
+mercado;metkaalü;n.m
+mes;kashi;n.m
+meter;e'itawaa;v.tr 
+meter;ekerojiraa;v.tr
+meterse;ashutaa;v.ref
+mezclar;apalirajaa;v.tr
+mezclado;palirawaa;v.tr
+mezclada;palirawaa;v.tr
+miedo;eema;n.m
+miel;mapa;n.f
+miel de abeja;mapa;n.f
+miembro;o'uluku;n.m
+mientras;ama'inru'u;conj
+mientras;o'utpünaa;conj
+mijo;waana;n.m
+millo;waana;n.m
+mirar;eirakawaa;v.intr
+mirar;anajaa;v.tr
+mirar;e'rajaa;v.tr
+mirar;e'rajawaa;v.tr
+mismo;amüiwa'a;adj
+misma;amüiwa'a;adj
+mitad;shiatapünaa;n.f 
+mitad;ase'eru'u;n.f
+mochila;katto'ui;n.f
+mochila;wo'olu;n.f
+mochila fina;susu;n.f
+mocho;peraa;adj
+mocha;peraa;adj
+mojado;chü'laa;adj
+mojada;chü'laa;adj
+mojarse;chü'laa;v.ref
+moldear;atükaa;v.tr
+moler;ayüüjawaa;v.tr
+molestar;eke'ejaa aa'in;v.tr
+molino;moliina;n.m
+molino de viento;moliina;n.m
+montaña;uuchi;n.f
+montar;o'otoo;v.tr
+montar;o'otowaa;v.intr
+monte;wuna'apü;n.m
+morder;ojottaa;v.tr
+morir;ouktaa;v.intr
+mortal;ouktasiro'ulu;adj
+mosca;ja'yumulerü;n.f
+mosquito;ji'rupu;n.m
+mostrar;ee'iyataa;v.tr
+moverse;waawataa;v.ref
+muchacho;tepichi;n.m
+muchacho;jintüi;n.m
+muchacha;jimo'olu;n.f
+mucho;wainma;n.m
+mucho;joulaa;n.m
+mucha;wattaa aalin;n.f
+múcura;amüchi;n.f
+mudarse;okolojowaa;v.ref
+mudarse con el rebaño;o'onowaa;.v.ref
+muela;aliina;n.f
+muerte;ouktaa;n.f
+muerto;ouktaa;adj
+muerta;ouktaa;adj
+mujer;jierü;n.f
+mulo;muula;n.m
+mula;muula;n.m
+muñeca;ajapkii;n.f
+murciélago;püsichi;n.m
+muslo;apü'ü;n.m
+muy;ma'i;adv
+nacer;jemeiwaa;v.intr
+nacer;jemeyuluu;v.intr
+nadar;ashuunajaa;v.intr
+nadar;katünaa;v.intr
+nalga;einalu'u;n.f
+nariz;e'ichi;n.f
+naturaleza;akuaippa;n.f
+neblina;mannuuya;n.f
+necio;maa'inwaa;adj
+necia;maa'inwaa;adj
+negar;ji'iyee;v.tr
+negro;mütsiiya:adj 
+negra;yuulii;adj
+nene;jo'uu;n.m
+nena;jo'uu;n.f
+nido;epia;n.m
+nieto;alüin;n.m
+nieta;aikeyuu;n.f
+niño;tepichi;n.m
+niño;jintüi;n.m
+niña;jintulu;n.f
+no;nnojo;adv
+no haber;nnojolaa;adv 
+no estar;nnojolaa;adv 
+no ser;nnojolaa;adv 
+no poder;isaa achiki;adv
+noche;sa'wai;n.f
+noche;aipa'a;n.f
+nombre;anülia;n.m
+norte;palaapünaa;n.m
+nos;waya;pron
+nosotros;waya;pron
+nosotras;waya;pron
+noticia;achiki;n.f
+noticia;kasachiki;n.f
+novio;amüraajüin;n.m
+novia;amüraajüin;n.f
+nube;siruma;n.f
+nuca;anulu;n.f
+nudo;osho'o;n.m
+nuera;a'üi;n.f
+nuera;a'ülü;n.f
+nueve;mekietsalü;adj
+nuevo;jekechi;adj
+nueva;jekechitü;adj
+o;shiale;conj
+obedecer;oonowaa amaa;v.tr
+obediente;jüüjüwaa;adj
+observar;anajaa;v.tr
+observar;e'rajawaa;v.tr
+occidente;waapünaa;n.m
+ocho;mekiisalü;adj
+odiar;a'ürülawaa;v.tr
+oído;ache'e;n.m
+oír;aapaa2;v.intr
+oiga;¡kaatei!;v.intr
+ojo;o'u;n.m
+oler;aataa eejuu;v.tr
+olla;wayeeta;n.f
+olla de barro cocido;wushu;n.f
+olor;eejuu;n.m
+oloroso;jemetaa eejuu;adj
+olorosa;jemetaa eejuu;adj 
+olvidar;motoo aa'in;v.tr
+olvidarse;motoo aa'in;v.ref
+olvidarse de;motoo aa'in;v.ref
+ordenado;lotaa;adj
+ordenada;lotaa;adj
+ordeñar;aliichajaa;v.tr
+oreja;ache'e;n.f
+oriente;wiinnaa;n.m
+origen;ekii;n.m
+orilla;olu;n.f
+orinar;ashiitaa;v.intr
+oripopo;waluuseechi;n.m
+oro;ooro;n.m
+oscuridad;piyuushi;n.f
+otro;wane'eya;adj
+otra;wane'eya;adj
+oveja;anneerü;n.f
+óxido;acha'a;n.m
+padrastro;ashiyaashi;n.m
+padre;ashi;n.m
+pagado;walawaa;adj
+pagada;walawaa;adj
+pagar;awalaajaa;v.tr
+pago;walaashi;n.m
+país;mma;n.m
+pájaro;wuchii;n.m
+pala;paarü;n.f
+palabra;pütchi;n.m
+palabra;anüiki; n.m
+palabrero;pütchipü'ü;n.m
+palabrero;pütche'ejachi;n.m
+palabrera;pütche'ejachitü;n.f
+palo;wunu'u;n.m
+paloma;mo'uwa;n.f
+paloma silvestre;mo'uwa;n.f
+paloma doméstica;toomasü;n.f
+palpitar;tüntaa aa'in;v.intr
+palpitar del corazón;tüntaa aa'in;v.intr
+pan;pan;n.m
+papá;taata;n.m
+papel;karaloukta;n.m
+para;apüla;prep
+para;amüin;prep
+para que;apüla;prep
+para que;ee'iree;prep
+para que no;oulia;prep
+parado;sha'wataa;adj
+parada;sha'wataa;adj
+pararse;asha'walawaa;v.ref
+parásito;e'e;n.m
+paraulata;wainpirai;n.f
+parecerse;maa aka aa'in;v.ref
+parecerse a;maa aka aa'in;v.ref
+pared;asepü;n.f
+pareja;awala'ata;n.f
+parejo;sirataa;adj
+pariente;apüshi;n.m
+parir;jemeyuluu;v.intr
+parte;e'ipa;n.f
+parte;a'ata;n.f
+parte;apüshi;n.f
+parte;o'uluku;n.f
+parte superior de las piernas;atu'u;n.f
+partir;ashatawaa;v.tr
+partir;yülaa;v.tr
+partirse;ashatawaa;v.ref
+partirse;awajawaa;v.ref
+parto;a'alijawaa;n.m
+pasaje;asapia;n.m
+pasar;alataa;v.intr
+pasar;o'ttawaa;v.intr
+pasear;apasiajawaa;v.intr
+paso;akua;n.m
+paso estruendoso de animales;atürüla;n.m
+pasto;alama;n.m
+pastor;apü'üya;n.m
+pastora;apü'üya;n.f
+pastorear;arüleejaa;v.tr
+pata;oo'ui;n.f 
+pata;asa'a;n.f
+patear;ashe'etaa;v.tr
+patilla;kalapaasü;n.f
+patio;paatia;n.m
+pecado;aainjala;n.m
+pecar;kaainjalaa;v.intr
+pecho;aluuwain;n.m
+pedazo;e'ipa;n.m 
+pedazo;a'ata;n.m
+pedir;achuntaa;v.tr
+pedir prestado;achuntaa;v.tr
+pedir prestado;ajuyaajaa;adj
+pegar;a'yaataa;v.tr 
+pegar;ajataa;v.tr
+pegar con un proyectil;a'itaa;v.tr
+pelar;oshojoo;v.tr
+pelear;atkawaa;v.tr
+pelear con puños;ashe'ejirawaa;v.intr
+pelo;walashi;n.m
+pelusa;wala'ayuu;n.f
+pensar;jülüjaa aa'in;v.intr
+pequeño;motsoo;adj
+pequeña;jo'uuchon;adj
+perderse;amüloulii;v.ref
+perdiz;peerü;n.f
+perecer;amüloulii;v.intr
+pereza;akulajawaa;n.f
+pereza;aa'in;n.f
+perezoso;shokulaa;ajd
+perezosa;shokulaa;ajd
+perforar;ootojoo;v.tr
+perico;kalekale;n.m
+periquito;pirijirü;n.m
+perjudicar;amojujaa;v.tr
+perjudicar;uwomuyuwaa;v.tr
+perla;kaa'ürüi;n.f
+permitir;oo'ulawaa;v.tr
+pero;alu'ujasa'a;conj
+pero;akaisa'a;conj
+pero;akatsa'a;conj
+pero;akanasa'a;conj
+perro;erü;n.m
+perra;erü;n.f
+perseguir;eipiraa;v.tr
+perseverar;waneepiaa;v.intr
+persona;wayuu;n.f
+persuadir;eme'eraa aa'in;v.tr
+perturbar;eiwa'ajaa aa'in;v.tr
+pesado;jawataa;adj
+pesada;jawataa;adj
+pesar;epesajaa;v.tr
+pescado;jime;n.m
+peso;aawain;n.m
+pestaña;o'uta;n.f
+petróleo;kaasü;n.m
+petróleo para lámpara;kaasü;n.m
+pez;jime;n.m
+pezuña;apato'u;n.f
+piache;outshi;n.m
+picar;ojottaa;v.tr
+picar;ekaa;v.tr
+pico de un pájaro;e'ichi;n.m
+pie;oo'ui;n.m
+piedra;ipa;n.f
+piedra de afilar;luta;n.f
+piedra preciosa;tu'uma;n.f
+piel;ata;n.f
+piel entera;atouta;n.f
+pierna;asa'a;n.f
+pieza;korolo;n.f
+pinchar;asotaa;v.tr
+pincharse;koojaa;v.ref
+pintarse la cara;ashajawaa;v.ref
+pintura;achepü;n.f
+pintura para la cara;achepü;n.f
+piojo;mapüi;n.m
+pisar;a'chükütaa;v.tr
+piso;apa'a;n.m
+placenta;o'ula;n.f
+plaga;e'e. plano;n.f
+plano;sirataa;adj
+plana;sirataa;adj
+plástico;paasta;n.m
+plata;pülaata;n.f
+plátano;püla'ana;n.m
+plato;pülaata;n.m
+plaza;pülaasa;n.f
+Pléyades;iiwa;n.f.pl
+pluma;atüna;n.f
+pluma;amülira;n.f
+pobre;müliaa;adj
+pobre;mojuu;adj
+pocillo;jaarü;n.m
+poco;palitchon;adj
+poco profundo;epetaa;adj
+poca;motsoo;adj
+poder;ainkaa;v.tr
+poder;ountaa;v.tr
+poder;apülain;n.m
+poderoso;pülaa;adj
+poderosa;pülaa;adj
+podrido;ittaa;adj
+podrida;ittaa;adj
+polvo;mma;n.m
+poner;e'itawaa;v.tr
+ponerse el vestido;a'ataa;v.tr
+ponerse una prenda;a'ataa;v.ref
+ponerse de pie;asha'walawaa;v.ref
+poquito;palitchon;adj
+poquita;yootchon;ajd
+por;atüma;prep
+por;apüla;prep
+por;anainjee;prep
+por;asala;prep
+por;oo'opünaa;prep
+por;aa'u;prep
+por afán de;ee'iree;prep
+por causa de;aalin;prep
+por causa de;aa'u;prep
+por medio de;akajee;prep
+por qué;jamaa;prep
+porción;a'ata;n.f
+porque;aka;conj
+porque;akajee;conj
+porque;anainjee;conj
+portarse mal;mojulawaa;v.ref
+por poco tiempo;motso'o;adj
+posarse;o'ttaa;v.ref
+posesión de;ama'ana;n.f
+posesionarse;aikkalawaa;v.ref
+posterior;chiiruajachi;adj
+posterior;chiiruajachitü;adj
+pozo;ishi;n.m
+practicar;oo'ulakaa;v.tr
+precio;alia;n.m
+preguntar;asakiraa;v.intr
+prenda;kakuuna;n.f
+prender;achuwajawaa;v.intr
+prender;epejawaa;v.tr
+preocuparse;ashapatawaa;v.ref
+preparado;yapaa;adj
+preparada;yapaa;adj
+prepararse;yapaa;v.ref
+presa;asirü;n.f
+preso;püreesaa;adj
+prestado;a'anapaa;
+primavera;iiwa;n.f
+primero;palajana;adj
+primero;palajachi;adj
+primera;palajachitü;adj
+primogénito;e'iruma;n.m
+primogénita;e'iruma;n.f
+principio;einalu'u;n-m
+prisa;ashapajawaa;n.f
+probar;oo'ulakaa;v.tr
+profundo;o'utaa;adj
+profunda;o'utaa;adj
+prohibir;apülajaa;v.tr
+pronto;joolu'u;adv
+pronto;maalü;adv
+propio;amüiwa'a;adj
+propia;amüiwa'a;adj
+proponer;e'itawaa;v.tr
+prostituta;iwaa;n.f
+provocar;aashichijaa;v.tr
+prudente;kaa'inwaa;adj
+pudrirse;ittaa;v.ref
+pueblo;wayuu;n.m
+pueblo;pueulo;n.m
+puerta;o'u;n.f
+puerta;puatto'u;n.f
+puerta de entrada;miicho'u;n.f
+puerta de vidrio;rouya;n.f
+puesto;apülee;n.m
+puesto que;aa'u;conj
+pulga;jayapa;n.f
+pulmón;ososo;n.m
+pulpa;ase;n.f
+pulsar;tüntaa aa'in;v.intr
+pulsera;ajapüna;n.f
+punta;e'iru'u;n.f
+punta;e'ichi;n.f
+punzar;atkaa;v.tr
+puro;ulee;adj
+pura;ulee;adj
+pus;ajü;n.m
+que;anain;conj
+que;amaa;conj
+qué;kasa;pron
+quebrado;yülaa;adj
+quebrarse;asottaa;v.ref
+quedar;apütawaa;v.intr
+quedarse;makataa;v.ref
+quemado;jotaa;adj
+quemadura;ishaa;n.f
+quemar;a'ajaa;v.tr
+quemar;asijaa;v.tr
+quemarse;jotaa;v.ref
+quemarse;ittaa;v.ref
+quemarse;ishaa;v.ref
+querer;achekaa;v.tr
+queso;keesü;n.m
+quién;jarai;pron
+quién;jaralü;pron
+quieto;jimataa;adj
+quieta;jimataa;adj
+quijada;awalainse;n.f
+quitar;asütaa;v.tr
+quitar;aakataa;v.tr
+rabia;üttaa aa'in;n.f
+radio;raawia;n.m
+tener miedo;mmoluu;n.m
 pasado mañana;wattapia;adv
+por el oriente;wiinnaa;n.m
+sentir rabia;ttaa aa'in;n.f
+ser lo mismo;wanaawaa;adj
+ser prostituta;maa'inwaa;n.f
+sinsonte;wainpirai;n.f
+sufrir una quemadura;ittaa;n.f
+por el monte;wuna'ainküin;n.m
+zancudo;ji'rupu;n.m
