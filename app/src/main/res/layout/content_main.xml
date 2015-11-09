@@ -68,9 +68,9 @@
             android:id="@+id/button_translate"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:background="@color/primary_dark"
+            android:background="@drawable/editextshape"
             android:text="@string/button2_text"
-            android:textColor="#FFF"/>
+            android:textColor="@color/primary_light"/>
 
     </LinearLayout>
 

@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         //Change the icon
         android.support.v7.app.ActionBar ab=getSupportActionBar();
         ab.setDisplayShowHomeEnabled(true);
-        ab.setIcon(R.drawable.logo);
+        ab.setIcon(R.mipmap.logo_parafondorojo);
         ab.setTitle("");
         //
 
@@ -72,8 +72,6 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFrag(new Traductor(), "TRADUCTOR");
         adapter.addFrag(new Historial(), "HISTORIAL");
         adapter.addFrag(new Compartir(), "COMPARTIR");
-        //adapter.addFrag(new DummyFragment(getResources().getColor(R.color.colorPrimary)), "DOG");
-        //adapter.addFrag(new DummyFragment(getResources().getColor(R.color.colorPrimaryDark)), "MOUSE");
         viewPager.setAdapter(adapter);
     }
 
