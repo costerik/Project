@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ingerikahumada.etnoapp.Compartir">
+
+    <LinearLayout
+        android:id="@+id/layout_compartir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@mipmap/iconoface"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <Button
+                android:background="@android:color/transparent"
+                android:textSize="20sp"
+                android:gravity="left|center"
+                android:id="@+id/button_facebook"
+                android:text="@string/facebook"
+                android:textColor="@color/color_facebook"
+                android:textAllCaps="false"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@mipmap/iconotwiter"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <Button
+                android:background="@android:color/transparent"
+                android:textSize="20sp"
+                android:gravity="left|center"
+                android:id="@+id/button_twitter"
+                android:text="@string/twitter"
+                android:textColor="@color/color_twitter"
+                android:textAllCaps="false"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:src="@mipmap/iconogoogle"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+            <Button
+                android:background="@android:color/transparent"
+                android:textSize="20sp"
+                android:gravity="left|center"
+                android:id="@+id/button_google_plus"
+                android:text="@string/google_plus"
+                android:textColor="@color/color_google_plus"
+                android:textAllCaps="false"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
