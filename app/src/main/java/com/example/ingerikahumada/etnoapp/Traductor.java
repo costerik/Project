@@ -134,7 +134,7 @@ public class Traductor extends Fragment {
             if(hash.get(str)!=null){
                 words.add(hash.get(str));
             }else{
-                words.add("(->"+str+"<-)");
+                words.add("'"+str+"'");
             }
         }
         return words;
@@ -149,6 +149,10 @@ public class Traductor extends Fragment {
             result+=words.get(i)+" ";
         }
         return result;
+    }
+
+    public String getTxtTranslate(){
+        return txtViewTranslate.getText().toString();
     }
 
 }

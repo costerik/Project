@@ -68,7 +68,7 @@
             android:id="@+id/button_translate"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:background="@drawable/editextshape"
+            android:background="@color/primary_dark"
             android:text="@string/button2_text"
             android:textColor="@color/primary_light"/>
 
@@ -84,6 +84,6 @@
             android:id="@+id/text_view"
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
-            android:textColor="#DD3CD7"/>
+            android:textColor="@color/primary_text"/>
     </LinearLayout>
 </LinearLayout>

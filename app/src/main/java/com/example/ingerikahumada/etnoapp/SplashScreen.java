@@ -2,18 +2,22 @@ package com.example.ingerikahumada.etnoapp;
 
 
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.drawable.BitmapDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 
 public class SplashScreen extends AppCompatActivity {
     // Splash screen timer
     private static int SPLASH_TIME_OUT = 2000;
     private EditText edt_correo_splash,edt_nombre_splash;
     private Button btn_entrar_splash,btn_registrarse_splash;
+    private LinearLayout ll_splash;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +27,11 @@ public class SplashScreen extends AppCompatActivity {
         edt_nombre_splash=(EditText)findViewById(R.id.edt_text_nombre_splash);
         btn_entrar_splash=(Button)findViewById(R.id.button_entrar_splash);
         btn_registrarse_splash=(Button)findViewById(R.id.button_registrar_splash);
+        ll_splash=(LinearLayout)findViewById(R.id.layout_splash);
+
+        Bitmap bm=MainActivity.decodeSampledBitmapFromResource(getResources(),R.drawable.fondo_splash_screen,300,300);
+        BitmapDrawable d=new BitmapDrawable(getResources(),bm);
+        ll_splash.setBackground(d);
 
 
         btn_entrar_splash.setOnClickListener(new View.OnClickListener() {

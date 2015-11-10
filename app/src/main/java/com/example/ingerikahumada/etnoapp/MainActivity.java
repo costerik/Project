@@ -1,5 +1,6 @@
 package com.example.ingerikahumada.etnoapp;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -14,8 +15,13 @@ import android.support.v7.widget.Toolbar;
 
 import android.util.Log;
 import android.view.View;
-public class MainActivity extends AppCompatActivity {
+import android.widget.TextView;
+import android.widget.Toast;
 
+public class MainActivity extends AppCompatActivity {
+    Traductor tr;
+    Compartir cmptr;
+    Historial hstl;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,17 +67,35 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                sendEmail(tr.getTxtTranslate());
+                Log.i("Send email", tr.getTxtTranslate());
             }
         });
     }
 
+    protected void sendEmail(String subject) {
+        Log.i("Send email", "");
+        Intent emailIntent = new Intent(Intent.ACTION_SEND);
+
+        emailIntent.setType("message/rfc822");
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "EtnoApp Traducción");
+        emailIntent.putExtra(Intent.EXTRA_TEXT,subject );
+
+        try {
+            startActivity(Intent.createChooser(emailIntent, "Send mail..."));
+            finishActivity(emailIntent.filterHashCode());
+            Log.i("Finished email...", "");
+        }
+        catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(MainActivity.this, "There is no email client installed.", Toast.LENGTH_SHORT).show();
+        }
+    }
+
     private void setupViewPager(ViewPager viewPager) {
         ViewPagerAdapter adapter = new ViewPagerAdapter(getSupportFragmentManager());
-        adapter.addFrag(new Traductor(), "TRADUCTOR");
-        adapter.addFrag(new Historial(), "HISTORIAL");
-        adapter.addFrag(new Compartir(), "COMPARTIR");
+        adapter.addFrag(tr=new Traductor(), "TRADUCTOR");
+        adapter.addFrag(hstl=new Historial(), "HISTORIAL");
+        adapter.addFrag(cmptr=new Compartir(), "COMPARTIR");
         viewPager.setAdapter(adapter);
     }
 
