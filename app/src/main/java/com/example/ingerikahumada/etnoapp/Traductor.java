@@ -22,6 +22,7 @@ import java.util.Hashtable;
 
 
 public class Traductor extends Fragment {
+    HistoryDAO mHistoryDAO;
     Hashtable<String,String> dirWE, dirEW;
     EditText edtText;
     Spinner spinner,spinner2;
@@ -50,11 +51,13 @@ public class Traductor extends Fragment {
         spinner2 =(Spinner) view.findViewById(R.id.spinner2);
         btnTranslate=(Button)view.findViewById(R.id.button_translate);
         txtViewTranslate= (TextView)view.findViewById(R.id.text_view);
+        mHistoryDAO=new HistoryDAO(getContext());
 
         btnTranslate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 txtViewTranslate.setText(translate(edtText.getText().toString(),words));
+                mHistoryDAO.addEntry(edtText.getText().toString(),txtViewTranslate.getText().toString());
                 /*String wordObtained = fromTo(dirEW, edtText.getText().toString());
                 if (wordObtained != "") {
                     txtViewTranslate.setText(wordObtained);

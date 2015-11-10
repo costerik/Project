@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
+                if(tab.getPosition()==1){
+                    hstl.mostrarElems();
+                }
             }
 
             @Override
@@ -96,6 +99,9 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFrag(tr=new Traductor(), "TRADUCTOR");
         adapter.addFrag(hstl=new Historial(), "HISTORIAL");
         adapter.addFrag(cmptr=new Compartir(), "COMPARTIR");
+        tr.setRetainInstance(true);
+        hstl.setRetainInstance(true);
+        cmptr.setRetainInstance(true);
         viewPager.setAdapter(adapter);
     }
 

@@ -896,6 +896,7 @@ gorda;kaüsüü;adj
 gotear;shottaa;v.intr
 gotear;amülaa;v.intr
 gotear;keenaa;v.intr
+gracias;wayoo;actualizar
 grande;miyo'u;adj
 grano;o'u;n.m
 grasa;seepü;n.f
@@ -969,6 +970,7 @@ hinchada;ourulaa;adj
 hinchada en el abdomen;ooroloo;adj
 hocico;e'ichi;n.m
 hoja;apana;n.f
+hola;ajaa;actualizar
 hombre;toolo;n.m
 honda;koucha;n.f
 honda de caucho;junaaya;n.f
