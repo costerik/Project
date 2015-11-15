@@ -9,10 +9,10 @@
     <string name="button2_text">Traducir</string>
     <string name="type">Type...</string>
     <string-array name="from_language">
-        <item>Wayuunaiki</item>
+        <item>Español</item>
     </string-array>
     <string-array name="to_language">
-        <item>Español</item>
+        <item>Wayuunaiki</item>
     </string-array>
 
     <string name="title_activity_splash_screen">SplashScreen</string>
@@ -38,5 +38,6 @@
     <string name="crear_cuenta">Crear cuenta</string>
     <string name="mensajes">Mensajes</string>
     <string name="enviar">Enviar</string>
+    <string name="contraseña">Contraseña</string>
 
 </resources>

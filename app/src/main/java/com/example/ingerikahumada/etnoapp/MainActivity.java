@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
         final ViewPager viewPager=(ViewPager)findViewById(R.id.tabanim_viewpager);
         setupViewPager(viewPager);
         //Drawable d= ContextCompat.getDrawable(getActivity().getApplicationContext(),R.drawable.fondo_chat_app);
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setBackground(d);
 
         TabLayout tabLayout=(TabLayout)findViewById(R.id.tabanim_tabs);
+        tabLayout.setTabMode(TabLayout.MODE_FIXED);
         tabLayout.setupWithViewPager(viewPager);
 
         tabLayout.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {

@@ -13,142 +13,129 @@
 
     <ImageView
         android:src="@mipmap/iconousuario"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/etno_cuenta"
         android:textColor="@color/primary"
-        android:layout_gravity="center"/>/>
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:drawableLeft="@mipmap/iconousuario"
-            android:gravity="center|left"
-            android:text="@string/alias"
-            android:textColor="@color/primary"/>
-        <EditText
-            android:id="@+id/edt_alias__reg"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1" />
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:drawableLeft="@mipmap/icononombres"
-            android:gravity="center|left"
-            android:text="@string/nombres"
-            android:textColor="@color/primary"/>
-        <EditText
-            android:id="@+id/edt_nombre__reg"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:drawableLeft="@mipmap/iconoapellidos"
-            android:gravity="center|left"
-            android:text="@string/apellidos"
-            android:textColor="@color/primary"/>
-        <EditText
-            android:id="@+id/edt_apellidos__reg"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:drawableLeft="@mipmap/iconocorreo"
-            android:gravity="center|left"
-            android:text="@string/correo"
-            android:textColor="@color/primary"/>
-        <EditText
-            android:id="@+id/edt_correo__reg"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:drawableLeft="@mipmap/iconoempresa"
-            android:gravity="center|left"
-            android:text="@string/empresa"
-            android:textColor="@color/primary"/>
-        <EditText
-            android:id="@+id/edt_empresa__reg"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
-
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:drawableLeft="@mipmap/icononumerocel"
-            android:gravity="center|left"
-            android:text="@string/numero_cel"
-            android:textColor="@color/primary"/>
-        <EditText
-            android:id="@+id/edt_num_cel__reg"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"/>
-
-    </LinearLayout>
+        android:layout_gravity="center"/>
 
     <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/crear_cuenta_reg"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/crear_cuenta"
-            android:textAllCaps="false"
-            android:background="@drawable/editextshape"
-            android:textColor="@color/primary_light"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/edt_correo__reg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@mipmap/correo_rojo"
+                android:hint="@string/correo"
+                android:textColorHint="@color/primary"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/edt_nombre__reg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@mipmap/icononombres"
+                android:hint="@string/nombres"
+                android:textColorHint="@color/primary"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/edt_apellidos__reg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@mipmap/iconoapellidos"
+                android:hint="@string/apellidos"
+                android:textColorHint="@color/primary"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/edt_contraseña__reg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@mipmap/contrasenia_rojo"
+                android:hint="@string/contraseña"
+                android:inputType="textPassword"
+                android:textColorHint="@color/primary"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/edt_empresa__reg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@mipmap/empresa_rojo"
+                android:text="@string/empresa"
+                android:textColor="@color/primary"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <EditText
+                android:id="@+id/edt_num_cel__reg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@mipmap/icononumerocel"
+                android:hint="@string/numero_cel"
+                android:textColorHint="@color/primary"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/crear_cuenta_reg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/crear_cuenta"
+                android:textAllCaps="false"
+                android:background="@color/primary_dark"
+                android:textColor="@color/primary_light"/>
+        </LinearLayout>
+
     </LinearLayout>
+
 </LinearLayout>
