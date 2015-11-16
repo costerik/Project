@@ -15,12 +15,11 @@
 
     <ImageView
         android:id="@+id/fullscreen_content"
-        android:src="@mipmap/logo_parafondorojo"
-        android:layout_gravity="center|top"
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:layout_height="0dp"
-        android:keepScreenOn="true"/>
+        android:src="@mipmap/logoapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:keepScreenOn="true"
+        android:contentDescription="splash" />
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -37,6 +36,7 @@
             android:textColorHint="@color/primary_light"
             android:layout_margin="1dp"
             android:textColor="@color/primary_light"
+            android:inputType="textEmailAddress"
             android:drawableLeft="@mipmap/correo_blanco"/>
         <EditText
             android:id="@+id/edt_text_nombre_splash"

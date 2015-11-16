@@ -13,30 +13,36 @@
     tools:showIn="@layout/fragment_traductor"
     tools:context=".MainActivity">
 
-    <Button
-        android:gravity="left"
-        android:layout_width="fill_parent"
-        android:layout_height="20dp"
-        android:text="@string/message02"
-        android:textColor="#FFF"
-        android:textAllCaps="false"
-        android:clickable="false"
-        android:background="@color/primary_dark"/>
-
     <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:paddingTop="10dp"
         android:orientation="vertical">
 
+        <Button
+            android:gravity="left"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:text="@string/message02"
+            android:textColor="@color/primary_light"
+            android:textAllCaps="false"
+            android:clickable="false"
+            android:background="@color/primary_dark"/>
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Texto original"
+            android:textColor="@color/primary_text"/>
 
         <EditText
             android:id="@+id/edit_text"
             android:layout_width="fill_parent"
             android:layout_height="80dp"
             android:inputType="textMultiLine"
-            android:hint="@string/type"
             android:gravity="top" />
     </LinearLayout>
 

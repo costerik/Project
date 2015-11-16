@@ -29,8 +29,8 @@ public class SplashScreen extends AppCompatActivity {
         btn_registrarse_splash=(Button)findViewById(R.id.button_registrar_splash);
         ll_splash=(LinearLayout)findViewById(R.id.layout_splash);
 
-        //Bitmap bm=MainActivity.decodeSampledBitmapFromResource(getResources(),R.drawable.fondo_splash_screen,300,300);
-        //BitmapDrawable d=new BitmapDrawable(getResources(),bm);
+        Bitmap bm=MainActivity.decodeSampledBitmapFromResource(getResources(),R.drawable.fondo_splash_screen,300,300);
+        BitmapDrawable d=new BitmapDrawable(getResources(),bm);
         //ll_splash.setBackground(d);
 
 

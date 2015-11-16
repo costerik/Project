@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         //Change the icon
         android.support.v7.app.ActionBar ab=getSupportActionBar();
         ab.setDisplayShowHomeEnabled(true);
-        ab.setIcon(R.mipmap.logo_parafondorojo);
+        ab.setIcon(R.mipmap.logo_app_sin_pluma);
         ab.setTitle("");
         //
 

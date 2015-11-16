@@ -26,7 +26,7 @@ public class Registro extends AppCompatActivity {
 
         android.support.v7.app.ActionBar ab=getSupportActionBar();
         ab.setDisplayShowHomeEnabled(true);
-        ab.setIcon(R.mipmap.logo_parafondorojo);
+        ab.setIcon(R.mipmap.logo_app_sin_pluma);
         ab.setTitle("");
 
         ll_reg=(LinearLayout)findViewById(R.id.layout_reg);
