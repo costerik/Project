@@ -10,6 +10,7 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 public class SplashScreen extends AppCompatActivity {
@@ -18,6 +19,7 @@ public class SplashScreen extends AppCompatActivity {
     private EditText edt_correo_splash,edt_nombre_splash;
     private Button btn_entrar_splash,btn_registrarse_splash;
     private LinearLayout ll_splash;
+    private ImageView iv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,11 +29,13 @@ public class SplashScreen extends AppCompatActivity {
         edt_nombre_splash=(EditText)findViewById(R.id.edt_text_nombre_splash);
         btn_entrar_splash=(Button)findViewById(R.id.button_entrar_splash);
         btn_registrarse_splash=(Button)findViewById(R.id.button_registrar_splash);
-        ll_splash=(LinearLayout)findViewById(R.id.layout_splash);
+        //ll_splash=(LinearLayout)findViewById(R.id.layout_splash);
+        iv=(ImageView)findViewById(R.id.fullscreen_content);
 
-        Bitmap bm=MainActivity.decodeSampledBitmapFromResource(getResources(),R.drawable.fondo_splash_screen,300,300);
+        Bitmap bm=MainActivity.decodeSampledBitmapFromResource(getResources(),R.drawable.logo_3000px_por_3000px,190,190);
         BitmapDrawable d=new BitmapDrawable(getResources(),bm);
         //ll_splash.setBackground(d);
+        iv.setBackground(d);
 
 
         btn_entrar_splash.setOnClickListener(new View.OnClickListener() {
