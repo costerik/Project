@@ -56,7 +56,7 @@ public class HistoryDAO {
             do{
                 Log.d(TAG, "obtaining data... ");
                 //String data=" id :"+cursor.getString(1)+ " Name: "+cursor.getString(2)+" LastName: "+cursor.getString(3);
-                String data="  Español: "+cursor.getString(1)+ " Wayuunaiki: "+cursor.getString(2);
+                String data="Español:"+cursor.getString(1)+ "\nWayuunaiki:"+cursor.getString(2);
                 list.add(data);
             }while(cursor.moveToNext());
         }

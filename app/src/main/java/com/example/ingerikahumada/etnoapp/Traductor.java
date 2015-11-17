@@ -36,7 +36,14 @@ public class Traductor extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        words=new ArrayList<>();
+        dirEW=new Hashtable<>();
+        mHistoryDAO=new HistoryDAO(getContext());
+        try {
+            readFile(dirEW);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
@@ -44,20 +51,20 @@ public class Traductor extends Fragment {
                              Bundle savedInstanceState) {
 
         View view=inflater.inflate(R.layout.fragment_traductor, container, false);
-        dirEW=new Hashtable<>();
-        words=new ArrayList<>();
+
+
         edtText=(EditText)view.findViewById(R.id.edit_text);
         spinner = (Spinner) view.findViewById(R.id.spinner);
         spinner2 =(Spinner) view.findViewById(R.id.spinner2);
         btnTranslate=(Button)view.findViewById(R.id.button_translate);
         txtViewTranslate= (TextView)view.findViewById(R.id.text_view);
-        mHistoryDAO=new HistoryDAO(getContext());
 
         btnTranslate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 txtViewTranslate.setText(translate(edtText.getText().toString(),words));
                 mHistoryDAO.addEntry(edtText.getText().toString(),txtViewTranslate.getText().toString());
+
                 /*String wordObtained = fromTo(dirEW, edtText.getText().toString());
                 if (wordObtained != "") {
                     txtViewTranslate.setText(wordObtained);
@@ -102,12 +109,6 @@ public class Traductor extends Fragment {
 
             }
         });
-
-        try {
-            readFile(dirEW);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 
         // Inflate the layout for this fragment
         return view;

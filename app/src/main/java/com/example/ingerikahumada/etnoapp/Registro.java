@@ -32,7 +32,7 @@ public class Registro extends AppCompatActivity {
         ll_reg=(LinearLayout)findViewById(R.id.layout_reg);
         btn_crear_cuenta_reg=(Button)findViewById(R.id.crear_cuenta_reg);
 
-        Bitmap bm=MainActivity.decodeSampledBitmapFromResource(getResources(), R.drawable.fondo_chat_app, 300, 300);
+        Bitmap bm=MainActivity.decodeSampledBitmapFromResource(getResources(), R.drawable.fondo_chat_app, 500, 500);
         BitmapDrawable d=new BitmapDrawable(getResources(),bm);
         ll_reg.setBackground(d);
 

@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     Traductor tr;
     Compartir cmptr;
     Historial hstl;
+    ViewPager viewPager;
+    TabLayout tabLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,14 +32,14 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
 
-        final ViewPager viewPager=(ViewPager)findViewById(R.id.tabanim_viewpager);
+        viewPager=(ViewPager)findViewById(R.id.tabanim_viewpager);
         setupViewPager(viewPager);
-        //Drawable d= ContextCompat.getDrawable(getActivity().getApplicationContext(),R.drawable.fondo_chat_app);
-        Bitmap bm = decodeSampledBitmapFromResource(getResources(),R.drawable.fondo_chat_app,300,300);
+
+        Bitmap bm = decodeSampledBitmapFromResource(getResources(),R.drawable.fondo_chat_app,500,500);
         BitmapDrawable d=new BitmapDrawable(getResources(),bm);
         viewPager.setBackground(d);
 
-        TabLayout tabLayout=(TabLayout)findViewById(R.id.tabanim_tabs);
+        tabLayout=(TabLayout)findViewById(R.id.tabanim_tabs);
         tabLayout.setTabMode(TabLayout.MODE_FIXED);
         tabLayout.setupWithViewPager(viewPager);
 
@@ -46,7 +48,13 @@ public class MainActivity extends AppCompatActivity {
             public void onTabSelected(TabLayout.Tab tab) {
                 viewPager.setCurrentItem(tab.getPosition());
                 if(tab.getPosition()==1){
-                    hstl.mostrarElems();
+                    if(hstl!=null){
+                        Log.d("NULL???","No lo es");
+                        //This in lanscape doesn't work...fix it!
+                        hstl.mostrarElems();
+                    }else{
+                        Log.d("NULL???","Lo es");
+                    }
                 }
             }
 
@@ -101,9 +109,6 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFrag(tr=new Traductor(), "TRADUCTOR");
         adapter.addFrag(hstl=new Historial(), "HISTORIAL");
         adapter.addFrag(cmptr=new Compartir(), "COMPARTIR");
-        tr.setRetainInstance(true);
-        hstl.setRetainInstance(true);
-        cmptr.setRetainInstance(true);
         viewPager.setAdapter(adapter);
     }
 
